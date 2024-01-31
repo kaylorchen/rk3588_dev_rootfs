@@ -31,4 +31,6 @@ set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 # 设置在查找头文件时是否只查找目标环境中的头文件
 set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 
+include_directories(\${CMAKE_SYSROOT}/usr/local/include)
+
 EOF

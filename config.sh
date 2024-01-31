@@ -3,7 +3,7 @@ apt update
 apt install -y --no-install-recommends vim libopencv-dev g++ gcc \
 fakeroot devscripts libspdlog-dev libsystemd-dev libcap-dev liblz4-dev \
 libgcrypt-dev libzstd-dev debhelper rknpu2-dev librockchip-mpp-dev librga-dev \
-libstb-dev libturbojpeg0-dev libjpeg-turbo8-dev
+libstb-dev libturbojpeg0-dev libjpeg-turbo8-dev librga2
 
 # 转换绝对路径软链接为相对路径的脚本
 
