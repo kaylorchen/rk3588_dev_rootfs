@@ -21,6 +21,7 @@ Following the steps above, a file named "toolchain-aarch64.cmake" will be genera
 For example:
 ```bash
 mkdir build
+cd build
 cmake -DCMAKE_TOOLCHAIN_FILE=/opt/data/orangepi/rk3588_dev_rootfs/toolchain-aarch64.cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
 make 
 ```
