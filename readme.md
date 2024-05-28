@@ -39,6 +39,9 @@ fakeroot devscripts libspdlog-dev libsystemd-dev libcap-dev liblz4-dev \
 libgcrypt-dev libzstd-dev debhelper rknpu2-dev librockchip-mpp-dev librga-dev \
 libstb-dev libturbojpeg0-dev libjpeg-turbo8-dev kaylordut-dev aaa
 ```
+> kaylordut-dev is my private library, you can find it via https://github.com/kaylorchen/kaylordut
+
+
 2. update rootfs
 ```bash
 ./update.sh
