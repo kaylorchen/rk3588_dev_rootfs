@@ -13,7 +13,7 @@ deb [signed-by=/usr/share/keyrings/jetson-ota-public.gpg] deb https://repo.downl
 deb [signed-by=/usr/share/keyrings/jetson-ota-public.gpg] deb https://repo.download.nvidia.com/jetson/t234 r36.3 main
 deb [signed-by=/usr/share/keyrings/jetson-ota-public.gpg] deb https://repo.download.nvidia.com/jetson/ffmpeg r36.3 main
 EOF
-sudo cp -v jetson-ota-public.gpg /usr/share/keyrings/
+sudo cp -v jetson-ota-public.gpg rootfs/usr/share/keyrings/
 sudo apt update
 sudo apt install -y gcc-aarch64-linux-gnu g++-aarch64-linux-gnu qemu-user-static
 sudo bash update.sh
