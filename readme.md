@@ -5,7 +5,7 @@
 ## Install the cross-compilation toolchain
 ```bash
 sudo apt update
-sudo apt install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu qemu-user-static
+sudo apt install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu qemu-user-static binfmt-support
 ```
 
 ## Build a cross-compilation environment rootfs
